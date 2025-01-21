@@ -33,9 +33,9 @@ int main() {
 			counter = peak;
 			
 			for(j = 0, q = k; q < n; j++, q++) {
-	            counter -= pars[j] - pars[q];
-	        	if(counter > peak)
-	                peak = counter;
+				counter -= pars[j] - pars[q];
+				if(counter > peak)
+					peak = counter;
 			}
 			
 			ans = k - peak;
